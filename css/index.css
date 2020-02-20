@@ -134,7 +134,30 @@ html,
 body {
   height: 100%;
 }
+@font-face {
+  font-family: 'Lacquer';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lacquer Regular'), local('Lacquer-Regular'), url(https://fonts.gstatic.com/s/lacquer/v1/EYqzma1QwqpG4_BBN7iKWg.ttf) format('truetype');
+}
 @media (max-width: 500px) {
+  .container {
+    background-color: black;
+    font-family: 'Lacquer';
+  }
+  .container .firsttwo {
+    width: 90%;
+    margin: 20px;
+  }
+  .container .allfour {
+    width: 90%;
+    margin: 20px;
+  }
+  .container .work {
+    width: 90%;
+    margin: 20px;
+  }
 }
 .boxCss {
   display: flex;

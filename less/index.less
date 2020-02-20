@@ -58,17 +58,18 @@ html, body {
 }
 // my code starts here
 
+//google font for stretch goal
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 
-<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
-
-
-
+//these variables created with @ can be placed anywhere
 @accent-color: lightblue;
 @accent-color2: hotpink;
 
 .container{
+	//media nested in container
 	@media (max-width: 500px){
 	background-color: black;
+	//google font inserted here
 	font-family: 'Lacquer', sans-serif;
 	.firsttwo{
 		width: 90%;
@@ -87,7 +88,8 @@ html, body {
  }
 	}
 }
-// four1-4 
+// Mixin used in four1-4; mixins are great if you 
+// Have to keep using the same coding multiple times 
 .boxCss{
 	 //width: ;
 	 display: flex;
@@ -129,8 +131,7 @@ header a:hover{
    .firstbox{
 	line-height: 1.25;
 	margin: 5%;
-	padding: ;
-	height: 50%;
+	//height: 50%;
 	width: 90%;
 	background-color: @accent-color2;
 	.border();
@@ -169,10 +170,6 @@ header a:hover{
 	margin: 5px 5px 5px 5px;
 }
 
-//.h2great{
-	
-//}
-
 .work {
 	background-color: @accent-color;
 }
@@ -205,10 +202,8 @@ footer{
 }
 
 .hmm{
-    width: ;
     display: flex;
     justify-content: center;
-    align-items: ;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -216,3 +211,4 @@ footer{
 button{
 	background-color: @accent-color;
 }
+

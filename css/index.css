@@ -144,7 +144,7 @@ body {
 @media (max-width: 500px) {
   .container {
     background-color: black;
-    font-family: 'Lacquer';
+    font-family: 'Lacquer', sans-serif;
   }
   .container .firsttwo {
     width: 90%;
@@ -188,8 +188,6 @@ header a:hover {
 .firstbox {
   line-height: 1.25;
   margin: 5%;
-  padding: ;
-  height: 50%;
   width: 90%;
   background-color: hotpink;
   border: 10px solid lightblue;
@@ -270,10 +268,8 @@ footer {
   justify-content: center;
 }
 .hmm {
-  width: ;
   display: flex;
   justify-content: center;
-  align-items: ;
   padding: 20px 2%;
   font-size: 14px;
 }

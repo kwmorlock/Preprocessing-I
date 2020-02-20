@@ -57,10 +57,52 @@ html, body {
     height: 100%;
 }
 // my code starts here
-@accent-color: hotpink;
+
+@accent-color: lightblue;
+@accent-color2: hotpink;
+
+.container{
+	@media (max-width: 500px){
+	//background-color: red;
+
+	}
+}
+// four1-4 
+.boxCss{
+	 //width: ;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: left;
+	 padding: 20px 2%;
+	 //font-size: ;
+	 border-bottom: 1px solid black;
+
+}
+
+html {
+	font-size: 62.5% 
+}
+
+body{
+	font-size:1.6rem;
+	background-color: @accent-color2;
+  }
+header{
+	background-color: lightblue;
+}
+  header a{
+	width: 3%;
+	margin: 5% 4%;
+	color: black;
+	text-decoration: none;
+
+}
+header a:hover{
+	color: @accent-color2;
+}
 
 .border(){
-	border:4px solid @accent-color;
+	border:10px solid @accent-color;
 	padding:2%;
   }
 
@@ -70,18 +112,87 @@ html, body {
 	padding: ;
 	height: 50%;
 	width: 90%;
-	background-color: hotpink;
+	background-color: @accent-color2;
 	.border();
+	img {
+		max-width:15%;
+		height:auto;
+	}
   }
-  img {
-    max-width:15%;
-    height:auto;
-}
+  
+
 .firsttwo {
     display: flex;
 	flex-direction: row;
     justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+	align-content: center;
+	background-color: @accent-color2;
+	border-top: 5px solid @accent-color;
+}
+.firstleft{
+	width: 45%;
+	font-size: 1.9rem;
+	text-align: left;
+	display: flex;
+    flex-direction: column;
+    margin: 5px 5px 5px 5px;
+}
+
+.secondright{
+	width: 45%;
+	font-size: 1.9rem;
+	text-align: left;
+	display: flex;
+    flex-direction: column;
+	margin: 5px 5px 5px 5px;
+}
+
+//.h2great{
+	
+//}
+
+.work {
+	background-color: @accent-color;
+}
+
+.allfour p{
+	border-bottom: 1px solid black;
+}
+
+.four1 {
+.boxCss();
+	background-color: @accent-color2;
+}
+.four2 {
+	.boxCss();
+	background-color: @accent-color;
+}
+.four3 {
+    .boxCss();
+	background-color: @accent-color;
+}
+.four4 {
+    .boxCss();
+	background-color: @accent-color;
+}
+footer{
+	width: 100%;
+	background-color: @accent-color2;
+	display: flex;
+	justify-content: center;
+}
+
+.hmm{
+    width: ;
+    display: flex;
+    justify-content: center;
     align-items: ;
-    flex-wrap: wrap;
-	align-content: ;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+button{
+	background-color: @accent-color;
 }
